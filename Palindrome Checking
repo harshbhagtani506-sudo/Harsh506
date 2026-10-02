@@ -1,0 +1,12 @@
+string = input("Enter a string: ")
+clean_string = string.lower() 
+# recorecting cases
+reversed_string = clean_string[::-1]
+print(reversed_string)
+
+#Palindrome Check
+
+if clean_string == reversed_string:
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
